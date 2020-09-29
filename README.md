@@ -1,14 +1,13 @@
 # Proyecto interno SD Script de Origen#
 
 ###### SSIS ######
-Paso 1 Crear un nuevo Data Flow Task
-Paso 2 Ingresar al data Flow Task 
-Paso 3 Añadir un Componente de script de la secciones "Comunes" que sea de tipo Origen
-Paso 4 Doble clic en el componente y acceder a las entradas y salidas
-paso 5 Crear una nueva columna de salida llamada "Estatus"
-Paso 6 Abrir el componente y dar clic en Editar Script
-(Se requeire visual studio instalado)
-Paso 7 Añadir un packete de Nugget -
+- Paso 1 Crear un nuevo Data Flow Task
+- Paso 2 Ingresar al data Flow Task 
+- Paso 3 Añadir un Componente de script de la secciones "Comunes" que sea de tipo Origen
+- Paso 4 Doble clic en el componente y acceder a las entradas y salidas
+- paso 5 Crear una nueva columna de salida llamada "Estatus"
+- Paso 6 Abrir el componente y dar clic en Editar Script (Se requeire visual studio instalado)
+- Paso 7 Añadir un packete de Nugget -
     Paso 7.1 Clic derecho a la solucion 
     Paso 7.2 Dar clic en Administrar Paquete de Nuget para la solucion
     Paso 7.3 Ir a examinar paquetes
