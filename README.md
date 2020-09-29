@@ -16,8 +16,11 @@
    - Paso 7.6 Cerrar el administrador de paquetes
    - Paso 7.7 ir al main.cs
    - Paso 7.8 agregar los siguientes using 
-        using System.Net.Http;
-        using System.Collections.Generic;
+      ```C#
+         using System.Net.Http;
+         using System.Collections.Generic;
+      ```
+
 
 - Paso 8 Escribir el siguiente codigo en CreateNewOutputRows() (se encuentra en el main.cs)
 
