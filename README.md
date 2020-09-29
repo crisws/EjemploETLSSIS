@@ -38,6 +38,6 @@ var response = client.PostAsync(APIUrl, content).Result;
 ```
 
 
-
-El string APIUrl se debe colocar la direccion del proyecto
-El ejemplo es unicamente para ir a una API de pruebas
+## NOTAS ##
+--El string APIUrl se debe colocar la direccion del proyecto
+--El ejemplo es unicamente para ir a una API de pruebas
