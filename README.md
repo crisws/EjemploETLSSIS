@@ -8,18 +8,18 @@
 - paso 5 Crear una nueva columna de salida llamada "Estatus"
 - Paso 6 Abrir el componente y dar clic en Editar Script (Se requeire visual studio instalado)
 - Paso 7 Añadir un packete de Nugget -
-    Paso 7.1 Clic derecho a la solucion 
-    Paso 7.2 Dar clic en Administrar Paquete de Nuget para la solucion
-    Paso 7.3 Ir a examinar paquetes
-    Paso 7.4 buscar el paquete System.Net.Http
-    Paso 7.5 Instalarlo
-    Paso 7.6 Cerrar el administrador de paquetes
-    Paso 7.7 ir al main.cs
-    Paso 7.8 agregar los siguientes using 
+   - Paso 7.1 Clic derecho a la solucion 
+   - Paso 7.2 Dar clic en Administrar Paquete de Nuget para la solucion
+   - Paso 7.3 Ir a examinar paquetes
+   - Paso 7.4 buscar el paquete System.Net.Http
+   - Paso 7.5 Instalarlo
+   - Paso 7.6 Cerrar el administrador de paquetes
+   - Paso 7.7 ir al main.cs
+   - Paso 7.8 agregar los siguientes using 
         using System.Net.Http;
         using System.Collections.Generic;
 
-Paso 8 Escribir el siguiente codigo en CreateNewOutputRows() (se encuentra en el main.cs)
+- Paso 8 Escribir el siguiente codigo en CreateNewOutputRows() (se encuentra en el main.cs)
 
 ```C#
 HttpClient client = new HttpClient();
