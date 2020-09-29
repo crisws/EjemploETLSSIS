@@ -1,6 +1,6 @@
-#Proyecto interno SD Script de Origen#
+# Proyecto interno SD Script de Origen#
 
-######SSIS######
+###### SSIS ######
 Paso 1 Crear un nuevo Data Flow Task
 Paso 2 Ingresar al data Flow Task 
 Paso 3 Añadir un Componente de script de la secciones "Comunes" que sea de tipo Origen
@@ -22,7 +22,7 @@ Paso 7 Añadir un packete de Nugget -
 
 Paso 8 Escribir el siguiente codigo en CreateNewOutputRows() (se encuentra en el main.cs)
 
-
+```C#
 HttpClient client = new HttpClient();
 string APIUrl = "http://balorit.com/TuberiasHub/ActualizarHubTuberiaCovid";
 client.BaseAddress = new Uri("http://balorit.com/TuberiasHub/ActualizarHubTuberiaCovid");
@@ -33,6 +33,9 @@ HttpContent content = new FormUrlEncodedContent(new Dictionary<string, string>
 });
 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 var response = client.PostAsync(APIUrl, content).Result;
+```
+
+
 
 El string APIUrl se debe colocar la direccion del proyecto
 El ejemplo es unicamente para ir a una API de pruebas
